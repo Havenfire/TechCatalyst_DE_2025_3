@@ -751,7 +751,12 @@ SELECT * FROM TECHCATALYST.TATWAN.TEMP limit 10;
 ## Bringing it all together 
 
 * Draw a proposed end-to-end solution diagram that highlights what you can accomplish using the skills you learned in the labs. 
+![Diagram](S3_Snowflake_Pipeline.drawio.png)
+
 * What are some of the use-cases for this solution? 
+
+    This solution is useful for Storing raw files, storing converted files, and uploading converted files to a data warehouse for storage. 
+
 * You will need to submit an architecture diagram.
 * You will need to submit the diagram and your write up all using a URL that points to your personal **GitHub** repository 
 
