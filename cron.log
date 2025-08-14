@@ -1,0 +1,693 @@
+Hello from cron job! Current time: 2025-08-14 18:26:01.770073
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 15, in duckdb_read
+    con = duckdb.connect("sample.db")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.IOException: IO Error: Could not set lock on file "/workspaces/TechCatalyst_DE_2025_3/sample.db": Conflicting lock is held in /usr/local/python/3.12.1/bin/python3.12 (PID 20534). See also https://duckdb.org/docs/stable/connect/concurrency
+Hello from cron job! Current time: 2025-08-14 18:26:06.827828
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 15, in duckdb_read
+    con = duckdb.connect("sample.db")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.IOException: IO Error: Could not set lock on file "/workspaces/TechCatalyst_DE_2025_3/sample.db": Conflicting lock is held in /usr/local/python/3.12.1/bin/python3.12 (PID 20534). See also https://duckdb.org/docs/stable/connect/concurrency
+Hello from cron job! Current time: 2025-08-14 18:26:11.884795
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 15, in duckdb_read
+    con = duckdb.connect("sample.db")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.IOException: IO Error: Could not set lock on file "/workspaces/TechCatalyst_DE_2025_3/sample.db": Conflicting lock is held in /usr/local/python/3.12.1/bin/python3.12 (PID 20534). See also https://duckdb.org/docs/stable/connect/concurrency
+Hello from cron job! Current time: 2025-08-14 18:26:16.940963
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 15, in duckdb_read
+    con = duckdb.connect("sample.db")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.IOException: IO Error: Could not set lock on file "/workspaces/TechCatalyst_DE_2025_3/sample.db": Conflicting lock is held in /usr/local/python/3.12.1/bin/python3.12 (PID 20534). See also https://duckdb.org/docs/stable/connect/concurrency
+Hello from cron job! Current time: 2025-08-14 18:26:21.997309
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 15, in duckdb_read
+    con = duckdb.connect("sample.db")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.IOException: IO Error: Could not set lock on file "/workspaces/TechCatalyst_DE_2025_3/sample.db": Conflicting lock is held in /usr/local/python/3.12.1/bin/python3.12 (PID 20534). See also https://duckdb.org/docs/stable/connect/concurrency
+Hello from cron job! Current time: 2025-08-14 18:27:01.063335
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 21, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 16, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:27:06.146139
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 21, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 16, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:27:11.234840
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 21, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 16, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:27:16.340105
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 21, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 16, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:27:21.438300
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 21, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 16, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:28:01.527045
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 16, in duckdb_read
+    con.head()
+    ^^^^^^^^
+AttributeError: 'duckdb.duckdb.DuckDBPyConnection' object has no attribute 'head'
+Hello from cron job! Current time: 2025-08-14 18:28:06.597668
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 16, in duckdb_read
+    con.head()
+    ^^^^^^^^
+AttributeError: 'duckdb.duckdb.DuckDBPyConnection' object has no attribute 'head'
+Hello from cron job! Current time: 2025-08-14 18:28:11.702284
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:28:16.828602
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:28:21.922840
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:29:02.011977
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:29:07.095645
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:29:12.179272
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:29:17.262549
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:29:22.345585
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:30:01.433500
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:30:06.515795
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:30:11.595935
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:30:16.690684
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:30:21.772179
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:31:01.860544
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:31:06.942707
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:31:12.024869
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:31:17.106856
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:31:22.186840
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:32:01.275025
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:32:06.383479
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:32:11.492594
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:32:16.615076
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:32:21.729452
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:33:01.817885
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:33:06.901481
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:33:12.003495
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:33:17.085958
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:33:22.169688
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:34:01.258348
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:34:06.339955
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:34:11.421707
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:34:16.503575
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:34:21.584390
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:35:01.672694
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:35:06.756354
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:35:11.838538
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:35:16.922370
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:35:22.006413
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:36:01.096212
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:36:06.180383
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:36:11.266039
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:36:16.353561
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:36:21.439262
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:37:01.528999
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:37:06.624395
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:37:11.710341
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:37:16.795410
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:37:21.882299
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:38:02.008960
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:38:07.115607
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:38:12.236644
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:38:17.322866
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:38:22.442325
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:39:01.531666
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:39:06.622224
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:39:11.710170
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:39:16.792520
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
+Hello from cron job! Current time: 2025-08-14 18:39:21.877876
+Hello World greeting finished
+Traceback (most recent call last):
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 22, in <module>
+    duckdb_read()
+  File "/workspaces/TechCatalyst_DE_2025_3/cron.py", line 17, in duckdb_read
+    results = con.sql("SELECT count(*) FROM taxi;")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+duckdb.duckdb.CatalogException: Catalog Error: Table with name taxi does not exist!
+Did you mean "pg_tables"?
